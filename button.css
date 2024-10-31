@@ -1,0 +1,27 @@
+.btn {
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.btn-buy {
+    background-color: #333; 
+    color: white; 
+}
+
+.btn-buy:hover {
+    background-color: #555; 
+    transform: scale(1.05); 
+
+.btn-learn {
+    background-color: #ddd; 
+    color: #333; 
+}
+
+.btn-learn:hover {
+    background-color: #ccc; 
+    transform: scale(1.05); 
+}
